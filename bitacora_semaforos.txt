@@ -1,0 +1,286 @@
+=================================================================
+  BITACORA - Programa 1: Semaforos Pthreads
+  CC3064 Sistemas Operativos - Laboratorio #5
+=================================================================
+  Recursos disponibles : 3
+  Threads              : 10
+  Iteraciones/thread   : 5
+=================================================================
+
+Creando threads
+Iniciando thread 1
+Thread 1 | Iter 1 - Esperando semaforo (disponibles: 3)...
+Thread 1 | Iter 1 - Semaforo abierto con exito.
+Thread 1 | Iter 1 - (+) Recurso TOMADO.    Disponibles: 2/3
+Iniciando thread 2
+Thread 2 | Iter 1 - Esperando semaforo (disponibles: 2)...
+Thread 2 | Iter 1 - Semaforo abierto con exito.
+Thread 2 | Iter 1 - (+) Recurso TOMADO.    Disponibles: 1/3
+Iniciando thread 8
+Thread 8 | Iter 1 - Esperando semaforo (disponibles: 1)...
+Thread 8 | Iter 1 - Semaforo abierto con exito.
+Thread 8 | Iter 1 - (+) Recurso TOMADO.    Disponibles: 0/3
+Iniciando thread 9
+Thread 9 | Iter 1 - Esperando semaforo (disponibles: 0)...
+Iniciando thread 3
+Thread 3 | Iter 1 - Esperando semaforo (disponibles: 0)...
+Iniciando thread 6
+Thread 6 | Iter 1 - Esperando semaforo (disponibles: 0)...
+Iniciando thread 5
+Thread 5 | Iter 1 - Esperando semaforo (disponibles: 0)...
+Iniciando thread 4
+Thread 4 | Iter 1 - Esperando semaforo (disponibles: 0)...
+Iniciando thread 0
+Thread 0 | Iter 1 - Esperando semaforo (disponibles: 0)...
+Iniciando thread 7
+Thread 7 | Iter 1 - Esperando semaforo (disponibles: 0)...
+Thread 2 | Iter 1 - Buenos dias! Recurso usado.
+Thread 2 | Iter 1 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 2 | Iter 2 - Esperando semaforo (disponibles: 1)...
+Thread 9 | Iter 1 - Semaforo abierto con exito.
+Thread 9 | Iter 1 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 9 | Iter 1 - Buenos dias! Recurso usado.
+Thread 9 | Iter 1 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 8 | Iter 1 - Buenos dias! Recurso usado.
+Thread 8 | Iter 1 - (-) Recurso DEVUELTO. Disponibles: 2/3
+Thread 9 | Iter 2 - Esperando semaforo (disponibles: 2)...
+Thread 3 | Iter 1 - Semaforo abierto con exito.
+Thread 3 | Iter 1 - (+) Recurso TOMADO.    Disponibles: 1/3
+Thread 8 | Iter 2 - Esperando semaforo (disponibles: 1)...
+Thread 6 | Iter 1 - Semaforo abierto con exito.
+Thread 6 | Iter 1 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 1 | Iter 1 - Buenos dias! Recurso usado.
+Thread 1 | Iter 1 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 1 | Iter 2 - Esperando semaforo (disponibles: 1)...
+Thread 5 | Iter 1 - Semaforo abierto con exito.
+Thread 5 | Iter 1 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 3 | Iter 1 - Buenos dias! Recurso usado.
+Thread 3 | Iter 1 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 3 | Iter 2 - Esperando semaforo (disponibles: 1)...
+Thread 4 | Iter 1 - Semaforo abierto con exito.
+Thread 4 | Iter 1 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 4 | Iter 1 - Buenos dias! Recurso usado.
+Thread 4 | Iter 1 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 4 | Iter 2 - Esperando semaforo (disponibles: 1)...
+Thread 0 | Iter 1 - Semaforo abierto con exito.
+Thread 0 | Iter 1 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 0 | Iter 1 - Buenos dias! Recurso usado.
+Thread 0 | Iter 1 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 0 | Iter 2 - Esperando semaforo (disponibles: 1)...
+Thread 7 | Iter 1 - Semaforo abierto con exito.
+Thread 7 | Iter 1 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 5 | Iter 1 - Buenos dias! Recurso usado.
+Thread 5 | Iter 1 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 5 | Iter 2 - Esperando semaforo (disponibles: 1)...
+Thread 2 | Iter 2 - Semaforo abierto con exito.
+Thread 2 | Iter 2 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 6 | Iter 1 - Buenos dias! Recurso usado.
+Thread 6 | Iter 1 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 6 | Iter 2 - Esperando semaforo (disponibles: 1)...
+Thread 9 | Iter 2 - Semaforo abierto con exito.
+Thread 9 | Iter 2 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 2 | Iter 2 - Buenos dias! Recurso usado.
+Thread 2 | Iter 2 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 2 | Iter 3 - Esperando semaforo (disponibles: 1)...
+Thread 8 | Iter 2 - Semaforo abierto con exito.
+Thread 8 | Iter 2 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 7 | Iter 1 - Buenos dias! Recurso usado.
+Thread 7 | Iter 1 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 7 | Iter 2 - Esperando semaforo (disponibles: 1)...
+Thread 1 | Iter 2 - Semaforo abierto con exito.
+Thread 1 | Iter 2 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 8 | Iter 2 - Buenos dias! Recurso usado.
+Thread 8 | Iter 2 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 8 | Iter 3 - Esperando semaforo (disponibles: 1)...
+Thread 3 | Iter 2 - Semaforo abierto con exito.
+Thread 3 | Iter 2 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 1 | Iter 2 - Buenos dias! Recurso usado.
+Thread 1 | Iter 2 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 1 | Iter 3 - Esperando semaforo (disponibles: 1)...
+Thread 4 | Iter 2 - Semaforo abierto con exito.
+Thread 4 | Iter 2 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 3 | Iter 2 - Buenos dias! Recurso usado.
+Thread 3 | Iter 2 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 3 | Iter 3 - Esperando semaforo (disponibles: 1)...
+Thread 0 | Iter 2 - Semaforo abierto con exito.
+Thread 0 | Iter 2 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 9 | Iter 2 - Buenos dias! Recurso usado.
+Thread 9 | Iter 2 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 9 | Iter 3 - Esperando semaforo (disponibles: 1)...
+Thread 5 | Iter 2 - Semaforo abierto con exito.
+Thread 5 | Iter 2 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 0 | Iter 2 - Buenos dias! Recurso usado.
+Thread 0 | Iter 2 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 0 | Iter 3 - Esperando semaforo (disponibles: 1)...
+Thread 6 | Iter 2 - Semaforo abierto con exito.
+Thread 6 | Iter 2 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 5 | Iter 2 - Buenos dias! Recurso usado.
+Thread 5 | Iter 2 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 5 | Iter 3 - Esperando semaforo (disponibles: 1)...
+Thread 2 | Iter 3 - Semaforo abierto con exito.
+Thread 2 | Iter 3 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 2 | Iter 3 - Buenos dias! Recurso usado.
+Thread 2 | Iter 3 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 2 | Iter 4 - Esperando semaforo (disponibles: 1)...
+Thread 7 | Iter 2 - Semaforo abierto con exito.
+Thread 7 | Iter 2 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 4 | Iter 2 - Buenos dias! Recurso usado.
+Thread 4 | Iter 2 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 4 | Iter 3 - Esperando semaforo (disponibles: 1)...
+Thread 8 | Iter 3 - Semaforo abierto con exito.
+Thread 8 | Iter 3 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 6 | Iter 2 - Buenos dias! Recurso usado.
+Thread 6 | Iter 2 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 6 | Iter 3 - Esperando semaforo (disponibles: 1)...
+Thread 1 | Iter 3 - Semaforo abierto con exito.
+Thread 1 | Iter 3 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 1 | Iter 3 - Buenos dias! Recurso usado.
+Thread 1 | Iter 3 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 1 | Iter 4 - Esperando semaforo (disponibles: 1)...
+Thread 3 | Iter 3 - Semaforo abierto con exito.
+Thread 3 | Iter 3 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 8 | Iter 3 - Buenos dias! Recurso usado.
+Thread 8 | Iter 3 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 8 | Iter 4 - Esperando semaforo (disponibles: 1)...
+Thread 9 | Iter 3 - Semaforo abierto con exito.
+Thread 9 | Iter 3 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 9 | Iter 3 - Buenos dias! Recurso usado.
+Thread 9 | Iter 3 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 9 | Iter 4 - Esperando semaforo (disponibles: 1)...
+Thread 0 | Iter 3 - Semaforo abierto con exito.
+Thread 0 | Iter 3 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 7 | Iter 2 - Buenos dias! Recurso usado.
+Thread 7 | Iter 2 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 7 | Iter 3 - Esperando semaforo (disponibles: 1)...
+Thread 5 | Iter 3 - Semaforo abierto con exito.
+Thread 5 | Iter 3 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 0 | Iter 3 - Buenos dias! Recurso usado.
+Thread 0 | Iter 3 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 0 | Iter 4 - Esperando semaforo (disponibles: 1)...
+Thread 2 | Iter 4 - Semaforo abierto con exito.
+Thread 2 | Iter 4 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 3 | Iter 3 - Buenos dias! Recurso usado.
+Thread 3 | Iter 3 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 3 | Iter 4 - Esperando semaforo (disponibles: 1)...
+Thread 4 | Iter 3 - Semaforo abierto con exito.
+Thread 4 | Iter 3 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 5 | Iter 3 - Buenos dias! Recurso usado.
+Thread 5 | Iter 3 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 5 | Iter 4 - Esperando semaforo (disponibles: 1)...
+Thread 6 | Iter 3 - Semaforo abierto con exito.
+Thread 6 | Iter 3 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 4 | Iter 3 - Buenos dias! Recurso usado.
+Thread 4 | Iter 3 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 4 | Iter 4 - Esperando semaforo (disponibles: 1)...
+Thread 1 | Iter 4 - Semaforo abierto con exito.
+Thread 1 | Iter 4 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 2 | Iter 4 - Buenos dias! Recurso usado.
+Thread 2 | Iter 4 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 2 | Iter 5 - Esperando semaforo (disponibles: 1)...
+Thread 8 | Iter 4 - Semaforo abierto con exito.
+Thread 8 | Iter 4 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 6 | Iter 3 - Buenos dias! Recurso usado.
+Thread 6 | Iter 3 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 6 | Iter 4 - Esperando semaforo (disponibles: 1)...
+Thread 9 | Iter 4 - Semaforo abierto con exito.
+Thread 9 | Iter 4 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 1 | Iter 4 - Buenos dias! Recurso usado.
+Thread 1 | Iter 4 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 1 | Iter 5 - Esperando semaforo (disponibles: 1)...
+Thread 7 | Iter 3 - Semaforo abierto con exito.
+Thread 7 | Iter 3 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 8 | Iter 4 - Buenos dias! Recurso usado.
+Thread 8 | Iter 4 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 8 | Iter 5 - Esperando semaforo (disponibles: 1)...
+Thread 0 | Iter 4 - Semaforo abierto con exito.
+Thread 0 | Iter 4 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 9 | Iter 4 - Buenos dias! Recurso usado.
+Thread 9 | Iter 4 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 9 | Iter 5 - Esperando semaforo (disponibles: 1)...
+Thread 3 | Iter 4 - Semaforo abierto con exito.
+Thread 3 | Iter 4 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 7 | Iter 3 - Buenos dias! Recurso usado.
+Thread 7 | Iter 3 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 7 | Iter 4 - Esperando semaforo (disponibles: 1)...
+Thread 5 | Iter 4 - Semaforo abierto con exito.
+Thread 5 | Iter 4 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 5 | Iter 4 - Buenos dias! Recurso usado.
+Thread 5 | Iter 4 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 5 | Iter 5 - Esperando semaforo (disponibles: 1)...
+Thread 4 | Iter 4 - Semaforo abierto con exito.
+Thread 4 | Iter 4 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 0 | Iter 4 - Buenos dias! Recurso usado.
+Thread 0 | Iter 4 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 0 | Iter 5 - Esperando semaforo (disponibles: 1)...
+Thread 2 | Iter 5 - Semaforo abierto con exito.
+Thread 2 | Iter 5 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 3 | Iter 4 - Buenos dias! Recurso usado.
+Thread 3 | Iter 4 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 3 | Iter 5 - Esperando semaforo (disponibles: 1)...
+Thread 6 | Iter 4 - Semaforo abierto con exito.
+Thread 6 | Iter 4 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 6 | Iter 4 - Buenos dias! Recurso usado.
+Thread 6 | Iter 4 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 6 | Iter 5 - Esperando semaforo (disponibles: 1)...
+Thread 1 | Iter 5 - Semaforo abierto con exito.
+Thread 1 | Iter 5 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 1 | Iter 5 - Buenos dias! Recurso usado.
+Thread 1 | Iter 5 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 1 - Terminado (todas las iteraciones completas)
+Thread 8 | Iter 5 - Semaforo abierto con exito.
+Thread 8 | Iter 5 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 4 | Iter 4 - Buenos dias! Recurso usado.
+Thread 4 | Iter 4 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 4 | Iter 5 - Esperando semaforo (disponibles: 1)...
+Thread 9 | Iter 5 - Semaforo abierto con exito.
+Thread 9 | Iter 5 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 8 | Iter 5 - Buenos dias! Recurso usado.
+Thread 8 | Iter 5 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 8 - Terminado (todas las iteraciones completas)
+Thread 7 | Iter 4 - Semaforo abierto con exito.
+Thread 7 | Iter 4 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 2 | Iter 5 - Buenos dias! Recurso usado.
+Thread 2 | Iter 5 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 2 - Terminado (todas las iteraciones completas)
+Thread 5 | Iter 5 - Semaforo abierto con exito.
+Thread 5 | Iter 5 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 9 | Iter 5 - Buenos dias! Recurso usado.
+Thread 9 | Iter 5 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 9 - Terminado (todas las iteraciones completas)
+Thread 0 | Iter 5 - Semaforo abierto con exito.
+Thread 0 | Iter 5 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 7 | Iter 4 - Buenos dias! Recurso usado.
+Thread 7 | Iter 4 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 7 | Iter 5 - Esperando semaforo (disponibles: 1)...
+Thread 3 | Iter 5 - Semaforo abierto con exito.
+Thread 3 | Iter 5 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 3 | Iter 5 - Buenos dias! Recurso usado.
+Thread 3 | Iter 5 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 3 - Terminado (todas las iteraciones completas)
+Thread 6 | Iter 5 - Semaforo abierto con exito.
+Thread 6 | Iter 5 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 5 | Iter 5 - Buenos dias! Recurso usado.
+Thread 5 | Iter 5 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 5 - Terminado (todas las iteraciones completas)
+Thread 4 | Iter 5 - Semaforo abierto con exito.
+Thread 4 | Iter 5 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 6 | Iter 5 - Buenos dias! Recurso usado.
+Thread 6 | Iter 5 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 6 - Terminado (todas las iteraciones completas)
+Thread 7 | Iter 5 - Semaforo abierto con exito.
+Thread 7 | Iter 5 - (+) Recurso TOMADO.    Disponibles: 0/3
+Thread 0 | Iter 5 - Buenos dias! Recurso usado.
+Thread 0 | Iter 5 - (-) Recurso DEVUELTO. Disponibles: 1/3
+Thread 0 - Terminado (todas las iteraciones completas)
+Thread 7 | Iter 5 - Buenos dias! Recurso usado.
+Thread 7 | Iter 5 - (-) Recurso DEVUELTO. Disponibles: 2/3
+Thread 7 - Terminado (todas las iteraciones completas)
+Thread 4 | Iter 5 - Buenos dias! Recurso usado.
+Thread 4 | Iter 5 - (-) Recurso DEVUELTO. Disponibles: 3/3
+Thread 4 - Terminado (todas las iteraciones completas)
+
+Todos los threads terminaron correctamente.
+
+=================================================================
+  FIN DE BITACORA
+=================================================================
